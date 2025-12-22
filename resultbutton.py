@@ -93,7 +93,7 @@ def process_single_bid(task):
             bid_no
         )
 
-    # ---------- FINANCIAL ----------
+    # ---------- FINANCIAL  ----------
     fin = data.get("financial_evaluation")
     if fin and fin.get("headers") and fin.get("rows"):
         append_table(

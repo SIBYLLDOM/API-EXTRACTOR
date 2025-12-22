@@ -4,7 +4,7 @@ def get_browser():
     playwright = sync_playwright().start()
 
     browser = playwright.chromium.launch(
-        headless=False,        # 🔥 HUGE SPEED BOOST
+        headless=True,        # 🔥 HUGE SPEED BOOST
         args=[
             "--disable-images",
             "--disable-extensions",
