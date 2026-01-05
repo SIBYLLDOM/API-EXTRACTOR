@@ -87,9 +87,16 @@ def extract_current_page(
                 )
 
             # --- VIEW BID RESULT URL (NO CLICK) ---
+            # User reported 'View BID Results' (uppercase BID)
             bid_result_anchor = card.locator(
-                "a:has(input[value='View Bid Results'])"
+                "a:has(input[value='View BID Results'])"
             )
+            if bid_result_anchor.count() == 0:
+                # Fallback to 'View Bid Results' just in case
+                bid_result_anchor = card.locator(
+                    "a:has(input[value='View Bid Results'])"
+                )
+
             if bid_result_anchor.count() > 0:
                 href = bid_result_anchor.first.get_attribute("href")
                 if href:

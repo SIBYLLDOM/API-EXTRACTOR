@@ -1,0 +1,5 @@
+serial_no,bid_no,bid_url,ra_no,ra_url,status,bid_result_url,ra_result_url
+1,GEM/2025/B/6986097,https://bidplus.gem.gov.in/showbidDocument/8697008,,,Technical Evaluation,https://bidplus.gem.gov.in/bidding/bid/getBidResultView/8697008,
+1,GEM/2025/B/6984156,https://bidplus.gem.gov.inshowbidDocument/8694870,GEM/2026/R/600401,https://bidplus.gem.gov.in/list-ra-schedules/8785348,Not Evaluated,https://bidplus.gem.gov.in/bidding/bid/getBidResultViewSchedule/8694870,
+2,GEM/2025/B/6984156,https://bidplus.gem.gov.in/showbidDocument/8694870,,,Financial Evaluation,https://bidplus.gem.gov.in/bidding/bid/getBidResultViewSchedule/8694870,
+1,GEM/2025/B/6954684,https://bidplus.gem.gov.in/showbidDocument/8661100,,,Bid Award,https://bidplus.gem.gov.in/bidding/bid/getBidResultView/8661100,
